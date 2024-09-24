@@ -146,8 +146,11 @@ def set_latest_client_version_on_server(version: str):
     with open(latest_client_version_file, "w", encoding="utf8") as version_file:
         print(version, file=version_file)
 
+    private_key_path = "../coppia_chiavi.pem"
+    private_key = paramiko.RSAKey.from_private_key_file(private_key_path)
+
     transport = paramiko.Transport((os.environ.get("VPS_IP"), 22))
-    transport.connect(None, os.environ.get("VPS_USER"), os.environ.get("VPS_PASS"))
+    transport.connect(username=os.environ.get("VPS_USER"), pkey=private_key)
     sftp = paramiko.SFTPClient.from_transport(transport)
     remote_path = "isaac-racing-server/" + latest_client_version_file
     sftp.put(latest_client_version_file, remote_path)
