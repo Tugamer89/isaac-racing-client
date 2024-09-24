@@ -6,7 +6,7 @@ import { deleteFile, fileExists, getFileHash, isDir } from "../../common/file";
 // This is the name of the folder for the Racing+ Lua mod after it is downloaded through Steam.
 const STEAM_WORKSHOP_MOD_NAME = "racing+_857628390";
 const SHA1_HASHES_URL =
-  "https://raw.githubusercontent.com/Zamiell/racing-plus/main/sha1.json";
+  "https://raw.githubusercontent.com/Tugamer89/racing-plus/main/sha1.json";
 
 export function exists(modsPath: string): boolean {
   if (process.send === undefined) {

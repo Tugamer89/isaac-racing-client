@@ -1,14 +1,14 @@
 {
   "name": "isaac-racing-client",
-  "version": "1.1.51",
+  "version": "1.1.52",
   "description": "A racing mod for The Binding of Isaac: Repentance",
-  "homepage": "https://isaacracing.net",
+  "homepage": "https://isaacracing-tuga.sytes.net",
   "bugs": {
-    "url": "https://github.com/Zamiell/isaac-racing-client/issues"
+    "url": "https://github.com/Tugamer89/isaac-racing-client/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zamiell/isaac-racing-client.git"
+    "url": "git+https://github.com/Tugamer89/isaac-racing-client.git"
   },
   "license": "GPL-3.0",
   "author": "Racing+",

@@ -11,10 +11,10 @@ export const IS_DEV = !remote.app.isPackaged;
 // domain.
 const LOCALHOST = IS_DEV && false;
 const SECURE = true; // "true" for HTTPS/WSS and "false" for HTTP/WS
-const DOMAIN = "isaacracing.net";
+const DOMAIN = "isaacracing-tuga.sytes.net";
 const PROTOCOL_SUFFIX = SECURE && !LOCALHOST ? "s" : "";
 
-export const FADE_TIME = 300; // In milliseconds
+export const FADE_TIME = 200; // In milliseconds
 export const PBKDF2_DIGEST = "sha512"; // Digest used for password hashing
 export const PBKDF2_ITERATIONS = 1000; // Number of iterations for password hashing
 export const PBKDF2_KEYLEN = 150; // Length of resulting password hash in bits

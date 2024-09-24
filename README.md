@@ -16,7 +16,7 @@ This is the client software for Racing+, a Binding of Isaac: Repentance racing p
 
 The client is written with [Electron](http://electron.atom.io/) and uses WebSockets to communicate with the server. The pretty elements are courtesy of [HTML5 UP](https://html5up.net/).
 
-You may also be interested in [the Lua mod](https://github.com/Zamiell/racing-plus) or [the Go server](https://github.com/Zamiell/isaac-racing-server).
+You may also be interested in [the Lua mod](https://github.com/Tugamer89/racing-plus) or [the Go server](https://github.com/Tugamer89/isaac-racing-server).
 
 <br />
 
@@ -30,7 +30,7 @@ The location for the client settings file is: `C:\Users\[Username]\AppData\Local
 
 - Install [node.js](https://nodejs.org/en/download/).
 - Install [Git](https://git-scm.com/download/win).
-- `git clone https://github.com/Zamiell/isaac-racing-client.git`
+- `git clone https://github.com/Tugamer89/isaac-racing-client.git`
 - `cd isaac-racing-client`
 - `npm ci`
 - `./run.sh`
@@ -45,7 +45,7 @@ The location for the client settings file is: `C:\Users\[Username]\AppData\Local
   - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
   - Close and reopen Terminal.
   - `nvm install node`
-- `git clone https://github.com/Zamiell/isaac-racing-client.git`
+- `git clone https://github.com/Tugamer89/isaac-racing-client.git`
 - `cd isaac-racing-client`
 - `npm ci`
 - `./run.sh`

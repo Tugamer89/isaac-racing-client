@@ -24,7 +24,7 @@ SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 REPOSITORY_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
 REPOSITORY_NAME = os.path.basename(REPOSITORY_DIR)
 VERSION_URL = (
-    "https://raw.githubusercontent.com/Zamiell/racing-plus/main/mod/version.txt"
+    "https://raw.githubusercontent.com/Tugamer89/racing-plus/main/mod/version.txt"
 )
 
 

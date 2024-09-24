@@ -17,7 +17,8 @@ local SAFE_HOSTNAMES = {
   "192.168.1.1",
   "192.168.1.10",
   "192.168.1.100",
-  "isaacracing.net",
+  "16.171.57.170",
+  "isaacracing-tuga.sytes.net",
   "beta.memento.ma",
 }
 

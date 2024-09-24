@@ -16,7 +16,7 @@
 
 ## Known Bugs with the Racing+ Mod (e.g. gameplay)
 
-Racing+ mod bugs are listed on a [separate page](https://github.com/Zamiell/racing-plus/blob/main/docs/bugs.md).
+Racing+ mod bugs are listed on a [separate page](https://github.com/Tugamer89/racing-plus/blob/main/docs/bugs.md).
 
 <br />
 
@@ -37,7 +37,7 @@ Racing+ mod bugs are listed on a [separate page](https://github.com/Zamiell/raci
 ## Known Bugs with Installing or Automatic Updating the Client
 
 - Sometimes, auto-update will not work properly. If this happens, just download the latest version automatically. (Reported by caesar)
-- Sometimes, when installing the Racing+ client, you will get the error message: "Your internet connection seems to be not permitted or dropped out!" This can happen if your internet connection sucks or you are in a certain country (China, Russia, etc.). To fix this, manually download all of the files from [the latest release](https://github.com/Zamiell/isaac-racing-client/releases) and put them all into the same directory. Then, run "WebSetup.exe".
+- Sometimes, when installing the Racing+ client, you will get the error message: "Your internet connection seems to be not permitted or dropped out!" This can happen if your internet connection sucks or you are in a certain country (China, Russia, etc.). To fix this, manually download all of the files from [the latest release](https://github.com/Tugamer89/isaac-racing-client/releases) and put them all into the same directory. Then, run "WebSetup.exe".
 
 <br />
 
